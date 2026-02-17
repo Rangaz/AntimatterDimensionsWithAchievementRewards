@@ -2512,7 +2512,7 @@ export const normalAchievements = [
       Array.dimensionTiers.map(InfinityDimension).every(dim => dim.baseAmount === 0) &&
       Currency.infinityPoints.value.gte(DC.E600),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "Eternity Challenge completions are now continous."
+    reward: "Eternity Challenge completions are now continuous."
   },
   {
     // Implemented! And changed!
